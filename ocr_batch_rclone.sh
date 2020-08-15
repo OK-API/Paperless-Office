@@ -1,12 +1,27 @@
-#! /bin/bash
-# rudimental script for OCR batch processing of picture or pdf files
-# developed by: Norman Pausch
-# initial Version: 2018-05-09
+#!/usr/bin/env bash
+
+# OK-API: Paperless-Office --> ocr_batch_rclone.sh
+# Copyright (c) 2020
+# Author: Norman Pausch
+# Github Repository: ( https://github.com/OK-API/Paperless-Office)
+# OK-API : O.K.-Automated Procedures Initiative.
 #
-# Main workflow:
-# 1. Copy files from remote to local dir (because of performance)
-# 2. Convert files if necessary to suitable format for tesseracting, then tesseracting from inbox
-# 3. Upload to remote and delete inbox
+# Rudimental script for OCR batch processing of picture or pdf files.
+#
+# This file is copyright under the version 1.2 (only) of the EUPL.
+# Please see the LICENSE file for your rights under this license.
+
+#
+# 
+#
+
+#########################################################################################################
+# Help Section 																							#
+# Main workflow:																						#
+# 1. Copy files from remote to local dir (because of performance)										#
+# 2. Convert files if necessary to suitable format for tesseracting, then tesseracting from inbox		#
+# 3. Upload to remote and delete inbox                                                           	    #
+#########################################################################################################
 
 
 # Define Variables
